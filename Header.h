@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-size_t binary_search(size_t arr_size, int* arr, int value);
+int binary_search(size_t arr_size, int* arr, int value);
 
 
 #endif

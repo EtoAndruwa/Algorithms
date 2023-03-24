@@ -3,13 +3,14 @@
 int main()
 {   
 
-    int arr[5] = {1, 4, 5, 6, 10};
+    int arr[] = {1, 4, 5, 6, 10, 11};
     int* arr_ptr = (int*)&arr;
     size_t size_of_arr = sizeof(arr) / sizeof(int);
 
-    printf("index %ld", binary_search(size_of_arr, arr_ptr, 6));
+    int value = 0;
+    scanf("%d", &value);
+    printf("size_of_arr %ld\n", size_of_arr);
+    printf("index %d\n", binary_search(size_of_arr, arr_ptr, value));
 
     return 0;
 }
-
-
