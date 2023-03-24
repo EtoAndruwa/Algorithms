@@ -9,8 +9,8 @@ int main()
 
     int value = 0;
     scanf("%d", &value);
-    printf("size_of_arr %ld\n", size_of_arr);
-    printf("index %d\n", binary_search(size_of_arr, arr_ptr, value));
+    // printf("size_of_arr %ld\n", size_of_arr);
+    printf("index %ld\n", simple_search(size_of_arr, arr_ptr, value));
 
     return 0;
 }
