@@ -7,7 +7,7 @@ int* choice_sort(int* arr_ptr, size_t arr_size)
 
     for(size_t index = 0; index < arr_size; index++)
     {
-        sorted_array[index] = get_min(arr_ptr, new_arr_size);
+        sorted_array[index] = get_max(arr_ptr, new_arr_size);
         arr_ptr++;
         new_arr_size--;
     }
